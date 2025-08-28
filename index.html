@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emergency Service</title>
+  <!-- Tailwind & DaisyUI CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-white">
+
+<!-- Header Section -->
+<header class="flex flex-col sm:flex-row justify-between items-center px-4 sm:px-8 md:px-12 py-3 bg-white border-b shadow-sm gap-3 sm:gap-0">
+  
+  <!-- Left Logo + Title -->
+  <div class="flex items-center gap-2 sm:gap-3 ml-2 sm:ml-4 md:ml-6">
+    <img src="./assets/logo.png" alt="gov logo" class="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12">
+    <h1 class="text-green-700 font-bold text-sm sm:text-lg md:text-xl leading-tight">
+      Emergency <br> Service
+    </h1>
+  </div>
+
+  <!-- Right Coins & Button -->
+  <div class="flex items-center gap-2 sm:gap-3 md:gap-4">
+    <!-- Heart -->
+    <div class="flex items-center gap-1 bg-gray-100 px-2 sm:px-3 py-1.5 sm:py-2 rounded-full shadow">
+      <span class="text-xs sm:text-sm md:text-base">0</span> 
+      <span class="text-red-500 text-base sm:text-lg md:text-xl">❤️</span>
+    </div>
+
+    <!-- Coin -->
+    <div class="flex items-center gap-1 bg-gray-100 px-2 sm:px-3 py-1.5 sm:py-2 rounded-full shadow">
+      <span class="text-xs sm:text-sm md:text-base">100</span> 
+      <span class="text-yellow-500 text-base sm:text-lg md:text-xl">🪙</span>
+    </div>
+
+    <!-- Button -->
+    <button class="btn btn-success rounded-full px-4 sm:px-5 md:px-6 py-1.5 sm:py-2 text-xs sm:text-sm md:text-base">
+      2 Copy
+    </button>
+  </div>
+</header>
+
+
+  <!-- Banner Section -->
+  <section class="bg-green-900 text-white py-10 sm:py-16 text-center">
+    <div class="flex flex-col items-center px-4">
+      <img src="./assets/logo.png" alt="logo" class="w-12 h-12 sm:w-16 sm:h-16 mb-3">
+      <h2 class="text-xl sm:text-3xl font-bold mb-2">জরুরি সেবা ডিরেক্টরি</h2>
+      <p class="text-xs sm:text-sm max-w-2xl">Government Emergency Services at Your Fingertip – A Project by Government of the People’s Republic of Bangladesh</p>
+    </div>
+  </section>
+
+  <section class="bg-gray-50 py-8">
+  <div class="max-w-[1440px] mx-auto px-4">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+      
+      <!-- Cards Grid (3x3 Matrix = 9 Cards) -->
+      <div class="md:col-span-3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+        <!-- Card 1 -->
+        <div class="bg-white shadow rounded-xl p-4 flex flex-col justify-between">
+          <div class="flex items-start justify-between">
+            <div class="flex items-center gap-2">
+              <div class="bg-red-100 p-3 rounded-full">🚨</div>
+              <div>
+                <h3 class="font-bold text-base">জাতীয় জরুরি সেবা</h3>
+                <p class="text-gray-500 text-sm">National Emergency</p>
+              </div>
+            </div>
+            <button class="text-gray-400 hover:text-red-500">♡</button>
+          </div>
+          <div class="mt-3">
+            <p class="text-2xl font-bold">999</p>
+            <span class="text-xs bg-gray-100 px-2 py-1 rounded">সরকারি</span>
+          </div>
+          <div class="flex gap-2 mt-4">
+            <button class="btn btn-sm btn-outline flex-1">📋 Copy</button>
+            <button class="btn btn-sm btn-success flex-1">📞 Call</button>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-white shadow rounded-xl p-4 flex flex-col justify-between">
+          <div class="flex items-start justify-between">
+            <div class="flex items-center gap-2">
+              <div class="bg-blue-100 p-3 rounded-full">👮</div>
+              <div>
+                <h3 class="font-bold text-base">পুলিশ</h3>
+                <p class="text-gray-500 text-sm">Police</p>
+              </div>
+            </div>
+            <button class="text-gray-400 hover:text-red-500">♡</button>
+          </div>
+          <div class="mt-3">
+            <p class="text-2xl font-bold">999</p>
+            <span class="text-xs bg-gray-100 px-2 py-1 rounded">পুলিশ</span>
+          </div>
+          <div class="flex gap-2 mt-4">
+            <button class="btn btn-sm btn-outline flex-1">📋 Copy</button>
+            <button class="btn btn-sm btn-success flex-1">📞 Call</button>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-white shadow rounded-xl p-4 flex flex-col justify-between">
+          <div class="flex items-start justify-between">
+            <div class="flex items-center gap-2">
+              <div class="bg-red-200 p-3 rounded-full">🔥</div>
+              <div>
+                <h3 class="font-bold text-base">ফায়ার সার্ভিস</h3>
+                <p class="text-gray-500 text-sm">Fire Service</p>
+              </div>
+            </div>
+            <button class="text-gray-400 hover:text-red-500">♡</button>
+          </div>
+          <div class="mt-3">
+            <p class="text-2xl font-bold">999</p>
+            <span class="text-xs bg-gray-100 px-2 py-1 rounded">ফায়ার</span>
+          </div>
+          <div class="flex gap-2 mt-4">
+            <button class="btn btn-sm btn-outline flex-1">📋 Copy</button>
+            <button class="btn btn-sm btn-success flex-1">📞 Call</button>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="bg-white shadow rounded-xl p-4 flex flex-col justify-between">
+          <div class="flex items-start justify-between">
+            <div class="flex items-center gap-2">
+              <div class="bg-green-100 p-3 rounded-full">🚑</div>
+              <div>
+                <h3 class="font-bold text-base">অ্যাম্বুলেন্স</h3>
+                <p class="text-gray-500 text-sm">Ambulance</p>
+              </div>
+            </div>
+            <button class="text-gray-400 hover:text-red-500">♡</button>
+          </div>
+          <div class="mt-3">
+            <p class="text-2xl font-bold">1994-999999</p>
+            <span class="text-xs bg-gray-100 px-2 py-1 rounded">স্বাস্থ্য</span>
+          </div>
+          <div class="flex gap-2 mt-4">
+            <button class="btn btn-sm btn-outline flex-1">📋 Copy</button>
+            <button class="btn btn-sm btn-success flex-1">📞 Call</button>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="bg-white shadow rounded-xl p-4 flex flex-col justify-between">
+          <div class="flex items-start justify-between">
+            <div class="flex items-center gap-2">
+              <div class="bg-pink-100 p-3 rounded-full">👩‍👧</div>
+              <div>
+                <h3 class="font-bold text-base">নারী ও শিশু সহায়তা</h3>
+                <p class="text-gray-500 text-sm">Women & Child Helpline</p>
+              </div>
+            </div>
+            <button class="text-gray-400 hover:text-red-500">♡</button>
+          </div>
+          <div class="mt-3">
+            <p class="text-2xl font-bold">109</p>
+            <span class="text-xs bg-gray-100 px-2 py-1 rounded">সহায়তা</span>
+          </div>
+          <div class="flex gap-2 mt-4">
+            <button class="btn btn-sm btn-outline flex-1">📋 Copy</button>
+            <button class="btn btn-sm btn-success flex-1">📞 Call</button>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="bg-white shadow rounded-xl p-4 flex flex-col justify-between">
+          <div class="flex items-start justify-between">
+            <div class="flex items-center gap-2">
+              <div class="bg-yellow-100 p-3 rounded-full">⚖️</div>
+              <div>
+                <h3 class="font-bold text-base">দুর্নীতি বিরোধী</h3>
+                <p class="text-gray-500 text-sm">Anti-Corruption</p>
+              </div>
+            </div>
+            <button class="text-gray-400 hover:text-red-500">♡</button>
+          </div>
+          <div class="mt-3">
+            <p class="text-2xl font-bold">106</p>
+            <span class="text-xs bg-gray-100 px-2 py-1 rounded">সরকারি</span>
+          </div>
+          <div class="flex gap-2 mt-4">
+            <button class="btn btn-sm btn-outline flex-1">📋 Copy</button>
+            <button class="btn btn-sm btn-success flex-1">📞 Call</button>
+          </div>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="bg-white shadow rounded-xl p-4 flex flex-col justify-between">
+          <div class="flex items-start justify-between">
+            <div class="flex items-center gap-2">
+              <div class="bg-gray-200 p-3 rounded-full">💡</div>
+              <div>
+                <h3 class="font-bold text-base">বিদ্যুৎ বিভ্রাট</h3>
+                <p class="text-gray-500 text-sm">Electricity Outage</p>
+              </div>
+            </div>
+            <button class="text-gray-400 hover:text-red-500">♡</button>
+          </div>
+          <div class="mt-3">
+            <p class="text-2xl font-bold">123</p>
+            <span class="text-xs bg-gray-100 px-2 py-1 rounded">বিদ্যুৎ</span>
+          </div>
+          <div class="flex gap-2 mt-4">
+            <button class="btn btn-sm btn-outline flex-1">📋 Copy</button>
+            <button class="btn btn-sm btn-success flex-1">📞 Call</button>
+          </div>
+        </div>
+
+        <!-- Card 8 -->
+        <div class="bg-white shadow rounded-xl p-4 flex flex-col justify-between">
+          <div class="flex items-start justify-between">
+            <div class="flex items-center gap-2">
+              <div class="bg-purple-100 p-3 rounded-full">🏥</div>
+              <div>
+                <h3 class="font-bold text-base">ব্র্যাক হেল্পলাইন</h3>
+                <p class="text-gray-500 text-sm">BRAC Helpline</p>
+              </div>
+            </div>
+            <button class="text-gray-400 hover:text-red-500">♡</button>
+          </div>
+          <div class="mt-3">
+            <p class="text-2xl font-bold">789</p>
+            <span class="text-xs bg-gray-100 px-2 py-1 rounded">এনজিও</span>
+          </div>
+          <div class="flex gap-2 mt-4">
+            <button class="btn btn-sm btn-outline flex-1">📋 Copy</button>
+            <button class="btn btn-sm btn-success flex-1">📞 Call</button>
+          </div>
+        </div>
+
+        <!-- Card 9 -->
+        <div class="bg-white shadow rounded-xl p-4 flex flex-col justify-between">
+          <div class="flex items-start justify-between">
+            <div class="flex items-center gap-2">
+              <div class="bg-indigo-100 p-3 rounded-full">🚆</div>
+              <div>
+                <h3 class="font-bold text-base">বাংলাদেশ রেলওয়ে</h3>
+                <p class="text-gray-500 text-sm">Bangladesh Railway</p>
+              </div>
+            </div>
+            <button class="text-gray-400 hover:text-red-500">♡</button>
+          </div>
+          <div class="mt-3">
+            <p class="text-2xl font-bold">1515</p>
+            <span class="text-xs bg-gray-100 px-2 py-1 rounded">পরিবহন</span>
+          </div>
+          <div class="flex gap-2 mt-4">
+            <button class="btn btn-sm btn-outline flex-1">📋 Copy</button>
+            <button class="btn btn-sm btn-success flex-1">📞 Call</button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Call History Section -->
+        <aside class="bg-white shadow rounded-xl p-4 h-fit ml-0 sm:ml-2 md:ml-4 md:col-span-1">
+        <div class="flex justify-between items-center mb-3">
+          <h2 class="font-bold">📞 Call History</h2>
+          <button class="btn btn-xs btn-error text-white">Clear</button>
+        </div>
+        <ul id="callHistory" class="space-y-3 text-sm text-gray-700">
+          <!-- Empty initially -->
+          <li class="text-gray-400 italic">No calls yet...</li>
+        </ul>
+      </aside>
+
+    </div>
+  </div>
+</section>
+
+
+</body>
+</html>
+

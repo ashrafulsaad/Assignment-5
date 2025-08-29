@@ -23,36 +23,33 @@
 
   <!-- Right Coins & Button -->
   <div class="flex items-center gap-2 sm:gap-3 md:gap-4">
-    <!-- Heart -->
     <div class="flex items-center gap-1 bg-gray-100 px-2 sm:px-3 py-1.5 sm:py-2 rounded-full shadow">
       <span id="count" class="text-xs sm:text-sm md:text-base">0</span> 
       <span class="text-red-500 text-base sm:text-lg md:text-xl">❤️</span>
     </div>
 
-    <!-- Coin -->
     <div class="flex items-center gap-1 bg-gray-100 px-2 sm:px-3 py-1.5 sm:py-2 rounded-full shadow">
       <span class="coin-count text-xs sm:text-sm md:text-base">100</span> 
       <span class="text-yellow-500 text-base sm:text-lg md:text-xl">🪙</span>
     </div>
 
-    <!-- Button -->
     <button class="btn btn-success rounded-full px-4 sm:px-5 md:px-6 py-1.5 sm:py-2 text-xs sm:text-sm md:text-base">
       2 Copy
     </button>
   </div>
 </header>
 
+<!-- Banner Section -->
+<section class="bg-green-900 text-white py-10 sm:py-16 text-center">
+  <div class="flex flex-col items-center px-4">
+    <img src="./assets/logo.png" alt="logo" class="w-12 h-12 sm:w-16 sm:h-16 mb-3">
+    <h2 class="text-xl sm:text-3xl font-bold mb-2">জরুরি সেবা ডিরেক্টরি</h2>
+    <p class="text-xs sm:text-sm max-w-2xl">Government Emergency Services at Your Fingertip – A Project by Government of the People’s Republic of Bangladesh</p>
+  </div>
+</section>
 
-  <!-- Banner Section -->
-  <section class="bg-green-900 text-white py-10 sm:py-16 text-center">
-    <div class="flex flex-col items-center px-4">
-      <img src="./assets/logo.png" alt="logo" class="w-12 h-12 sm:w-16 sm:h-16 mb-3">
-      <h2 class="text-xl sm:text-3xl font-bold mb-2">জরুরি সেবা ডিরেক্টরি</h2>
-      <p class="text-xs sm:text-sm max-w-2xl">Government Emergency Services at Your Fingertip – A Project by Government of the People’s Republic of Bangladesh</p>
-    </div>
-  </section>
-
-  <section class="bg-gray-50 py-8">
+<!-- Main Section -->
+<section class="bg-gray-50 py-8">
   <div class="max-w-[1440px] mx-auto px-4">
     <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
       
@@ -69,14 +66,15 @@
                 <p class="text-gray-500 text-sm">National Emergency</p>
               </div>
             </div>
-            <button class="text-gray-400 hover:text-red-500 content-love-btn">♡ </div>
+            <button class="text-gray-400 hover:text-red-500 content-love-btn">♡</button>
+          </div>
           <div class="mt-3">
             <p class="text-2xl font-bold">999</p>
             <span class="text-xs bg-gray-100 px-2 py-1 rounded">সরকারি</span>
           </div>
           <div class="flex gap-2 mt-4">
             <button class="btn btn-sm btn-outline flex-1">📋 Copy</button>
-            <button class="btn btn-sm btn-success flex-1  call">📞 Call</button>
+            <button class="btn btn-sm btn-success flex-1 call" data-name="জাতীয় জরুরি সেবা" data-number="999">📞 Call</button>
           </div>
         </div>
 
@@ -98,7 +96,7 @@
           </div>
           <div class="flex gap-2 mt-4">
             <button class="btn btn-sm btn-outline flex-1">📋 Copy</button>
-            <button class="btn btn-sm btn-success flex-1 call">📞 Call</button>
+            <button class="btn btn-sm btn-success flex-1 call" data-name="পুলিশ" data-number="999">📞 Call</button>
           </div>
         </div>
 
@@ -120,7 +118,7 @@
           </div>
           <div class="flex gap-2 mt-4">
             <button class="btn btn-sm btn-outline flex-1">📋 Copy</button>
-            <button class="btn btn-sm btn-success flex-1 call">📞 Call</button>
+            <button class="btn btn-sm btn-success flex-1 call" data-name="ফায়ার সার্ভিস" data-number="999">📞 Call</button>
           </div>
         </div>
 
@@ -142,7 +140,7 @@
           </div>
           <div class="flex gap-2 mt-4">
             <button class="btn btn-sm btn-outline flex-1">📋 Copy</button>
-            <button class="btn btn-sm btn-success flex-1 call">📞 Call</button>
+            <button class="btn btn-sm btn-success flex-1 call" data-name="অ্যাম্বুলেন্স" data-number="1994-999999">📞 Call</button>
           </div>
         </div>
 
@@ -164,7 +162,7 @@
           </div>
           <div class="flex gap-2 mt-4">
             <button class="btn btn-sm btn-outline flex-1">📋 Copy</button>
-            <button class="btn btn-sm btn-success flex-1 call">📞 Call</button>
+            <button class="btn btn-sm btn-success flex-1 call" data-name="নারী ও শিশু সহায়তা" data-number="109">📞 Call</button>
           </div>
         </div>
 
@@ -186,7 +184,7 @@
           </div>
           <div class="flex gap-2 mt-4">
             <button class="btn btn-sm btn-outline flex-1">📋 Copy</button>
-            <button class="btn btn-sm btn-success flex-1 call">📞 Call</button>
+            <button class="btn btn-sm btn-success flex-1 call" data-name="দুর্নীতি বিরোধী" data-number="106">📞 Call</button>
           </div>
         </div>
 
@@ -208,7 +206,7 @@
           </div>
           <div class="flex gap-2 mt-4">
             <button class="btn btn-sm btn-outline flex-1">📋 Copy</button>
-            <button class="btn btn-sm btn-success flex-1 call">📞 Call</button>
+            <button class="btn btn-sm btn-success flex-1 call" data-name="বিদ্যুৎ বিভ্রাট" data-number="123">📞 Call</button>
           </div>
         </div>
 
@@ -230,7 +228,7 @@
           </div>
           <div class="flex gap-2 mt-4">
             <button class="btn btn-sm btn-outline flex-1">📋 Copy</button>
-            <button class="btn btn-sm btn-success flex-1 call">📞 Call</button>
+            <button class="btn btn-sm btn-success flex-1 call" data-name="ব্র্যাক হেল্পলাইন" data-number="789">📞 Call</button>
           </div>
         </div>
 
@@ -252,20 +250,19 @@
           </div>
           <div class="flex gap-2 mt-4">
             <button class="btn btn-sm btn-outline flex-1">📋 Copy</button>
-            <button class="btn btn-sm btn-success flex-1">📞 Call</button>
+            <button class="btn btn-sm btn-success flex-1 call" data-name="বাংলাদেশ রেলওয়ে" data-number="1515">📞 Call</button>
           </div>
         </div>
 
       </div>
 
       <!-- Call History Section -->
-        <aside class="bg-white shadow rounded-xl p-4 h-fit ml-0 sm:ml-2 md:ml-4 md:col-span-1">
+      <aside class="bg-white shadow rounded-xl p-4 h-fit md:col-span-1">
         <div class="flex justify-between items-center mb-3">
           <h2 class="font-bold">📞 Call History</h2>
           <button class="btn btn-xs btn-error text-white">Clear</button>
         </div>
         <ul id="callHistory" class="space-y-3 text-sm text-gray-700">
-          <!-- Empty initially -->
           <li class="text-gray-400 italic">No calls yet...</li>
         </ul>
       </aside>
